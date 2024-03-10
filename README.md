@@ -7,7 +7,7 @@ Taalmodel
 ## Hoe installeer je het project
 
 ### Vereiste software
-- NodeJS 20.10.0 (LTS)
+- NodeJS 20.11.0 (LTS)
 - Visual Studio Code
 
 ### Clone het project
