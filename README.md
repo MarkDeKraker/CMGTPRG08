@@ -42,3 +42,8 @@ De client en server dienen beiden aan te staan voor de werking van de applicatie
 Navigeer naar http://localhost:3000 en je zal hier de gebruikersinterface zien van de chatbot.
 
 **Gefeliciteerd, de installatie is geslaagd!**
+
+### Eventuele issues die kunnen optreden
+- Onjuiste API keys voor de ChatLLM, hierdoor kunnen er geen calls gemaakt worden.
+- De SERVER & CLIENT staan beide niet aan, beide services moeten aanstaan voor de werking van de applicatie.
+- Het taalmodel van OpenAI kan soms niet werken door een overload bij het bedrijf zelf.
