@@ -180,8 +180,8 @@ export default function ChatHistory() {
   return (
     <>
       <div className="flex flex-col space-y-2">
-        <div className="w-[450px] border-2 rounded-lg h-[575px] shadow-md bg-white">
-          <p className="text-center border-b-2">Chat history</p>
+        <div className="w-[550px] border-2 rounded-lg h-[575px] shadow-md bg-white">
+          <p className="text-center border-b-2">RDW Chatbot</p>
           <div
             className="p-2 max-h-[540px]"
             ref={chatDivRef}
@@ -205,7 +205,7 @@ export default function ChatHistory() {
               fullWidth
               onClick={() => addChat()}
               variant="filled"
-              color="blue"
+              color="#cc3300"
             >
               Verstuur bericht
             </Button>
@@ -213,20 +213,20 @@ export default function ChatHistory() {
               fullWidth
               onClick={() => resetChat()}
               variant="filled"
-              color="red"
+              color="#000033"
             >
               Reset chat
             </Button>
           </div>
         </div>
-        <div className=" border-2 rounded-lg shadow-md bg-white">
+        {/* <div className=" border-2 rounded-lg shadow-md bg-white">
           <div className="p-2 space-y-2">
             <p className="font-medium">Token verbruik</p>
             <p className="text-sm">Completion tokens: {completionTokens}</p>
             <p className="text-sm">Prompt tokens: {promptTokens}</p>
             <p className="text-sm">Total tokens: {totalTokens}</p>
           </div>
-        </div>
+        </div> */}
       </div>
     </>
   );
